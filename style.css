@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+
+}
+body {
+background-color: antiquewhite;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.m-heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-black {
+    color:azure;
+}
+
+.main-container {
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("download.jpeg");
+    background-attachment: fixed;
+}
+.main_row h1 {
+
+    font-size: 5rem;
+    
+    
+    }
+    
+    /* Making the main image the size of the screen */
+    
+    .main_row img {
+    
+    width: auto;
+    
+    height: 100vh;
+    
+    
+    }
